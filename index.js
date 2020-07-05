@@ -6,48 +6,44 @@ const svara = require('./svara.json');
 const template = require('./template');
 
 const mkdir = util.promisify(fs.mkdir);
+const deleteDir = util.promisify(fs.rmdir);
+const exists = util.promisify(fs.exists);
 const writeFile = util.promisify(fs.writeFile);
 
+const exportFolderPath = './Melakarta';
+
 const generate = async () => {
-  for (const [chakra, ragas] of Object.entries(melakarta)) {
-    try {
-      await mkdir(`./Melakarta/${chakra}`);
-    } catch (e) {}
+  
+  if (await exists(exportFolderPath)) await deleteDir(exportFolderPath, { recursive: true });
+  await mkdir(exportFolderPath);
 
-    for (const [raga, notes] of Object.entries(ragas)) {
-      const arr = notes.split(/\s/);
-      const map = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
-      arr.forEach((a) => {
-        if (typeof svara[a] === 'undefined') {
-          throw 'Cannot process ' + a;
-        }
-        map[svara[a]] = svara[a];
-      });
-
-      for (let i = 0; i < map.length; i++) {
-        if (
-          typeof map[i + 1] === 'undefined' &&
-          typeof map[i - 1] === 'undefined'
-        ) {
-          throw `Cannot process ${raga} for ${map.toString()}`;
-        }
-
-        if (map[i + 1] === -1 && map[i + 1] > -1) {
-          map[i] = map[i + 1];
-        }
-
-        if (map[i] === -1 && map[i - 1] > -1) {
-          map[i] = map[i - 1];
-        }
+  Object.entries(melakarta).map(async([chakra, ragas]) => {
+    
+      try {
+        await mkdir(`${exportFolderPath}/${chakra}`);
+      } catch (e) {
+          console.log('Could not create directory', e);
       }
 
-      await writeFile(
-        `./Melakarta/${chakra}/${raga}.adv`,
-        template.getTranspiledXml(map)
-      );
-      console.log(`Created  ${chakra}/${raga}.adv!`);
-    }
-  }
+      Object.entries(ragas).map(async ([raga, notes]) => {
+
+          let noteArray = notes.split(/\s/);
+          let mappedRaga = [];
+          let lastValue = 0;
+
+          Object.entries(svara).map(([note, index]) => {
+              let currentValue = noteArray.includes(note) ? index : lastValue;
+              mappedRaga.push(currentValue);
+              lastValue = index;
+          })
+
+          await writeFile(
+              `./Melakarta/${chakra}/${raga}.adv`,
+              template.getTranspiledXml(mappedRaga)
+          );
+          console.log(`Created  ${chakra}/${raga}.adv`);
+      })
+    });
 };
 
 generate();
