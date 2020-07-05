@@ -1,0 +1,98 @@
+{
+  "Indu": {
+    "Kanakangi": "S R₁ G₁ M₁ P D₁ N₁ Ṡ",
+    "Ratnangi": "S R₁ G₁ M₁ P D₁ N₂ Ṡ",
+    "Ganamurti": "S R₁ G₁ M₁ P D₁ N₃ Ṡ",
+    "Vanaspati": "S R₁ G₁ M₁ P D₂ N₂ Ṡ",
+    "Manavati ": "S R₁ G₁ M₁ P D₂ N₃ Ṡ",
+    "Tanarupi ": "S R₁ G₁ M₁ P D₃ N₃ Ṡ"
+  },
+  "Netra": {
+    "Senavati": "S R₁ G₂ M₁ P D₁ N₁ Ṡ",
+    "Hanumatodi": "S R₁ G₂ M₁ P D₁ N₂ Ṡ",
+    "Dhenuka": "S R₁ G₂ M₁ P D₁ N₃ Ṡ",
+    "Natakapriya": "S R₁ G₂ M₁ P D₂ N₂ Ṡ",
+    "Kokilapriya": "S R₁ G₂ M₁ P D₂ N₃ Ṡ",
+    "Rupavati": "S R₁ G₂ M₁ P D₃ N₃ Ṡ"
+  },
+  "Agni": {
+    "Gayakapriya":	"S R₁ G₃ M₁ P D₁ N₁ Ṡ",
+    "Vakulabharanam":	"S R₁ G₃ M₁ P D₁ N₂ Ṡ",
+    "Mayamalavagowla":	"S R₁ G₃ M₁ P D₁ N₃ Ṡ",
+    "Chakravakam":	"S R₁ G₃ M₁ P D₂ N₂ Ṡ",
+    "Suryakantam":	"S R₁ G₃ M₁ P D₂ N₃ Ṡ",
+    "Hatakambari":	"S R₁ G₃ M₁ P D₃ N₃ Ṡ"
+  },
+  "Veda": {
+    "Jhankaradhwani": "S R₂ G₂ M₁ P D₁ N₁ Ṡ",
+    "Natabhairavi": "S R₂ G₂ M₁ P D₁ N₂ Ṡ",
+    "Keeravani": "S R₂ G₂ M₁ P D₁ N₃ Ṡ",
+    "Kharaharapriya": "S R₂ G₂ M₁ P D₂ N₂ Ṡ",
+    "Gourimanohari": "S R₂ G₂ M₁ P D₂ N₃ Ṡ",
+    "Varunapriya": "S R₂ G₂ M₁ P D₃ N₃ Ṡ"
+  },
+  "Bana": {
+    "Mararanjani": "S R₂ G₃ M₁ P D₁ N₁ Ṡ",
+    "Charukesi": "S R₂ G₃ M₁ P D₁ N₂ Ṡ",
+    "Sarasangi": "S R₂ G₃ M₁ P D₁ N₃ Ṡ",
+    "Harikambhoji": "S R₂ G₃ M₁ P D₂ N₂ Ṡ",
+    "Dheerasankarabaranam": "S R₂ G₃ M₁ P D₂ N₃ Ṡ",
+    "Naganandini": "S R₂ G₃ M₁ P D₃ N₃ Ṡ"
+  },
+  "Rutu": {
+    "Yagapriya": "S R₃ G₃ M₁ P D₁ N₁ Ṡ",
+    "Ragavardhini": "S R₃ G₃ M₁ P D₁ N₂ Ṡ",
+    "Gangeyabhushani": "S R₃ G₃ M₁ P D₁ N₃ Ṡ",
+    "Vagadheeswari": "S R₃ G₃ M₁ P D₂ N₂ Ṡ",
+    "Shulini": "S R₃ G₃ M₁ P D₂ N₃ Ṡ",
+    "Chalanata": "S R₃ G₃ M₁ P D₃ N₃ Ṡ"
+  },
+  "Rishi": {
+    "Salagam": "S R₁ G₁ M₂ P D₁ N₁ Ṡ",
+    "Jalarnavam": "S R₁ G₁ M₂ P D₁ N₂ Ṡ",
+    "Jhalavarali": "S R₁ G₁ M₂ P D₁ N₃ Ṡ",
+    "Navaneetam": "S R₁ G₁ M₂ P D₂ N₂ Ṡ",
+    "Pavani": "S R₁ G₁ M₂ P D₂ N₃ Ṡ",
+    "Raghupriya": "S R₁ G₁ M₂ P D₃ N₃ Ṡ"
+  },
+  "Vasu": {
+    "Gavambhodi": "S R₁ G₂ M₂ P D₁ N₁ Ṡ",
+    "Bhavapriya": "S R₁ G₂ M₂ P D₁ N₂ Ṡ",
+    "Shubhapantuvarali": "S R₁ G₂ M₂ P D₁ N₃ Ṡ",
+    "Shadvidamargini": "S R₁ G₂ M₂ P D₂ N₂ Ṡ",
+    "Suvarnangi": "S R₁ G₂ M₂ P D₂ N₃ Ṡ",
+    "Divyamani": "S R₁ G₂ M₂ P D₃ N₃ Ṡ"
+  },
+  "Brahma": {
+    "Dhavalambari": "S R₁ G₃ M₂ P D₁ N₁ Ṡ",
+    "Nāmanarayani": "S R₁ G₃ M₂ P D₁ N₂ Ṡ",
+    "Kamavardhini": "S R₁ G₃ M₂ P D₁ N₃ Ṡ",
+    "Ramapriya": "S R₁ G₃ M₂ P D₂ N₂ Ṡ",
+    "Gamanashrama": "S R₁ G₃ M₂ P D₂ N₃ Ṡ",
+    "Vishwambari": "S R₁ G₃ M₂ P D₃ N₃ Ṡ"
+  },
+  "Disi": {
+    "Shāmalangi": "S R₂ G₂ M₂ P D₁ N₁ Ṡ",
+    "Shanmukhapriya": "S R₂ G₂ M₂ P D₁ N₂ Ṡ",
+    "Simhendramadhyamam": "S R₂ G₂ M₂ P D₁ N₃ Ṡ",
+    "Hemavati": "S R₂ G₂ M₂ P D₂ N₂ Ṡ",
+    "Dharmavati": "S R₂ G₂ M₂ P D₂ N₃ Ṡ",
+    "Neetimati": "S R₂ G₂ M₂ P D₃ N₃ Ṡ"
+  },
+  "Rudra": {
+    "Kantamani": "S R₂ G₃ M₂ P D₁ N₁ Ṡ",
+    "Rishabhapriya": "S R₂ G₃ M₂ P D₁ N₂ Ṡ",
+    "Latangi": "S R₂ G₃ M₂ P D₁ N₃ Ṡ",
+    "Vachaspati": "S R₂ G₃ M₂ P D₂ N₂ Ṡ",
+    "Mechakalyani": "S R₂ G₃ M₂ P D₂ N₃ Ṡ",
+    "Chitrambari": "S R₂ G₃ M₂ P D₃ N₃ Ṡ"
+  },
+  "Aditya": {
+    "Sucharitra": "S R₃ G₃ M₂ P D₁ N₁ Ṡ",
+    "Jyoti swarupini": "S R₃ G₃ M₂ P D₁ N₂ Ṡ",
+    "Dhatuvardani": "S R₃ G₃ M₂ P D₁ N₃ Ṡ",
+    "Nāsikabhushini": "S R₃ G₃ M₂ P D₂ N₂ Ṡ",
+    "Kōsalam": "S R₃ G₃ M₂ P D₂ N₃ Ṡ",
+    "Rasikapriya": "S R₃ G₃ M₂ P D₃ N₃ Ṡ"
+  }
+}

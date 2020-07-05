@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ableton MajorVersion="5" MinorVersion="10.0_377" SchemaChangeCount="3" Creator="Ableton Live 10.1.15" Revision="38482bc723e52fbede344f40166043c9e5f3833c">
+  <MidiScale>
+    <LomId Value="0" />
+    <LomIdView Value="0" />
+    <IsExpanded Value="true" />
+    <On>
+      <LomId Value="0" />
+      <Manual Value="true" />
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <MidiCCOnOffThresholds>
+        <Min Value="64" />
+        <Max Value="127" />
+      </MidiCCOnOffThresholds>
+    </On>
+    <ParametersListWrapper LomId="0" />
+    <LastSelectedTimeableIndex Value="0" />
+    <LastSelectedClipEnvelopeIndex Value="0" />
+    <LastPresetRef>
+      <Value>
+        <AbletonDefaultPresetRef Id="0">
+          <FileRef>
+            <HasRelativePath Value="true" />
+            <RelativePathType Value="5" />
+            <RelativePath>
+              <RelativePathElement Id="0" Dir="Devices" />
+              <RelativePathElement Id="1" Dir="Midi Effects" />
+              <RelativePathElement Id="2" Dir="Scale" />
+            </RelativePath>
+            <Name Value="" />
+            <Type Value="2" />
+            <Data>
+              0000000001B4000200010C4D6163696E746F73682048440000000000000000000000000000000000
+              000042440001FFFFFFFF055363616C65000000000000000000000000000000000000000000000000
+              00000000000000000000000000000000000000000000000000000000000000000000FFFFFFFF0000
+              00000000000000000000FFFFFFFF00000A206375000000000000000000000000000C4D6964692045
+              666665637473000200682F3A4170706C69636174696F6E733A41626C65746F6E204C697665203130
+              2053756974652E6170703A436F6E74656E74733A4170702D5265736F75726365733A436F7265204C
+              6962726172793A446576696365733A4D69646920456666656374733A5363616C652F000E000C0005
+              005300630061006C0065000F001A000C004D006100630069006E0074006F00730068002000480044
+              001200654170706C69636174696F6E732F41626C65746F6E204C6976652031302053756974652E61
+              70702F436F6E74656E74732F4170702D5265736F75726365732F436F7265204C6962726172792F44
+              6576696365732F4D69646920456666656374732F5363616C6500001300012F00FFFF0000
+            </Data>
+            <RefersToFolder Value="true" />
+            <SearchHint>
+              <PathHint />
+              <FileSize Value="0" />
+              <Crc Value="0" />
+              <MaxCrcSize Value="0" />
+              <HasExtendedInfo Value="false" />
+            </SearchHint>
+            <LivePackName Value="Core Library" />
+            <LivePackId Value="www.ableton.com/0" />
+          </FileRef>
+          <DeviceId Name="MidiScale" />
+        </AbletonDefaultPresetRef>
+      </Value>
+    </LastPresetRef>
+    <LockedScripts />
+    <IsFolded Value="false" />
+    <ShouldShowPresetName Value="true" />
+    <UserName Value="" />
+    <Annotation Value="" />
+    <SourceContext>
+      <Value />
+    </SourceContext>
+    <OverwriteProtectionNumber Value="2561" />
+    <Base>
+      <LomId Value="0" />
+      <Manual Value="0" />
+      <MidiControllerRange>
+        <Min Value="0" />
+        <Max Value="11" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Base>
+    <BaseScrollPosArranger Value="-1073741824" />
+    <BaseScrollPosEnvelope Value="-1073741824" />
+    <Transpose>
+      <LomId Value="0" />
+      <Manual Value="0" />
+      <MidiControllerRange>
+        <Min Value="-36" />
+        <Max Value="36" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Transpose>
+    <TransposeScrollPosArranger Value="-1073741824" />
+    <TransposeScrollPosEnvelope Value="-1073741824" />
+    <Fold>
+      <LomId Value="0" />
+      <Manual Value="false" />
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <MidiCCOnOffThresholds>
+        <Min Value="64" />
+        <Max Value="127" />
+      </MidiCCOnOffThresholds>
+    </Fold>
+    <Lowest>
+      <LomId Value="0" />
+      <Manual Value="0" />
+      <MidiControllerRange>
+        <Min Value="0" />
+        <Max Value="127" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Lowest>
+    <LowestScrollPosArranger Value="-1073741824" />
+    <LowestScrollPosEnvelope Value="-1073741824" />
+    <Range>
+      <LomId Value="0" />
+      <Manual Value="128" />
+      <MidiControllerRange>
+        <Min Value="0" />
+        <Max Value="128" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Range>
+    <Mapping.0>
+      <LomId Value="0" />
+      <Manual Value="0" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.0>
+    <Mapping.1>
+      <LomId Value="0" />
+      <Manual Value="0" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.1>
+    <Mapping.2>
+      <LomId Value="0" />
+      <Manual Value="2" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.2>
+    <Mapping.3>
+      <LomId Value="0" />
+      <Manual Value="3" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.3>
+    <Mapping.4>
+      <LomId Value="0" />
+      <Manual Value="3" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.4>
+    <Mapping.5>
+      <LomId Value="0" />
+      <Manual Value="3" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.5>
+    <Mapping.6>
+      <LomId Value="0" />
+      <Manual Value="6" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.6>
+    <Mapping.7>
+      <LomId Value="0" />
+      <Manual Value="7" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.7>
+    <Mapping.8>
+      <LomId Value="0" />
+      <Manual Value="7" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.8>
+    <Mapping.9>
+      <LomId Value="0" />
+      <Manual Value="9" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.9>
+    <Mapping.10>
+      <LomId Value="0" />
+      <Manual Value="10" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.10>
+    <Mapping.11>
+      <LomId Value="0" />
+      <Manual Value="10" />
+      <MidiControllerRange>
+        <Min Value="-1" />
+        <Max Value="12" />
+      </MidiControllerRange>
+      <AutomationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </AutomationTarget>
+      <ModulationTarget Id="0">
+        <LockEnvelope Value="0" />
+      </ModulationTarget>
+    </Mapping.11>
+  </MidiScale>
+</Ableton>
